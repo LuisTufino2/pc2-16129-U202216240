@@ -1,5 +1,5 @@
-using Acme.Center.Platform.Resources.Errors;
-using Acme.Center.Platform.Resources.Shared;
+using Event.Registration.Resources.Errors;
+using Event.Registration.Resources.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 // For base ProblemDetailsFactory
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Localization;
 
 // For StatusCodes
 
-namespace Acme.Center.Platform.Shared.Interfaces.Rest.ProblemDetails;
+namespace Event.Registration.Shared.Interfaces.Rest.ProblemDetails;
 
 public class ProblemDetailsFactory
 {

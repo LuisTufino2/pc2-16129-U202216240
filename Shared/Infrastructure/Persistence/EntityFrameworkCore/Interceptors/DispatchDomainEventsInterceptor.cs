@@ -1,9 +1,9 @@
-using Acme.Center.Platform.Shared.Domain.Model.Aggregates;
+using Event.Registration.Shared.Domain.Model.Aggregates;
 using Cortex.Mediator;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
+namespace Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
 
 /// <summary>
 ///     EF Core interceptor that automatically dispatches domain events recorded on aggregate roots

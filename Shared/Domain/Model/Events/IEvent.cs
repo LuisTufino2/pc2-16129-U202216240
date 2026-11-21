@@ -1,6 +1,6 @@
 using Cortex.Mediator.Notifications;
 
-namespace Acme.Center.Platform.Shared.Domain.Model.Events;
+namespace Event.Registration.Shared.Domain.Model.Events;
 
 /// <summary>
 ///     Represents a domain event in the system.

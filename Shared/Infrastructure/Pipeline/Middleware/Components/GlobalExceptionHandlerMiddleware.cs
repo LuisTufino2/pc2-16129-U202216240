@@ -1,13 +1,13 @@
 using System.Net.Mime;
 using System.Text.Json;
-using Acme.Center.Platform.Resources.Errors;
-using Acme.Center.Platform.Resources.Shared;
+using Event.Registration.Resources.Errors;
+using Event.Registration..Resources.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 
 // For OperationCanceledException
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Pipeline.Middleware.Components;
+namespace Event.Registration.Shared.Infrastructure.Pipeline.Middleware.Components;
 
 /// <summary>
 ///     Global Exception Handling Middleware

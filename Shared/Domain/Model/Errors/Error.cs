@@ -1,4 +1,4 @@
-namespace Acme.Center.Platform.Shared.Domain.Model.Errors;
+namespace Event.Registration.Shared.Domain.Model.Errors;
 
 public enum EErrorType
 {

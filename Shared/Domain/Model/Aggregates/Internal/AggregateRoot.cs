@@ -1,6 +1,6 @@
-using Acme.Center.Platform.Shared.Domain.Model.Events;
+using Event.Registration.Shared.Domain.Model.Events;
 
-namespace Acme.Center.Platform.Shared.Domain.Model.Aggregates.Internal;
+namespace Event.Registration.Shared.Domain.Model.Aggregates.Internal;
 
 /// <summary>
 ///     Base class for aggregate roots in Domain-Driven Design.

@@ -1,7 +1,7 @@
 using Cortex.Mediator.Commands;
 using Microsoft.Extensions.Logging;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Mediator.Cortex.Configuration;
+namespace Event.Registration.Shared.Infrastructure.Mediator.Cortex.Configuration;
 
 /// <summary>
 ///     Pipeline behavior that logs the execution start and completion of commands.

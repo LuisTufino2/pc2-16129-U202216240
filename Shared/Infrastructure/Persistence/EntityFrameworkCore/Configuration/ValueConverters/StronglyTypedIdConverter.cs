@@ -1,8 +1,8 @@
-using Acme.Center.Platform.Shared.Domain.Model;
-using Acme.Center.Platform.Shared.Domain.Model.ValueObjects;
+using Event.Registration.Shared.Domain.Model;
+using Event.Registration.Shared.Domain.Model.ValueObjects;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.ValueConverters;
+namespace Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.ValueConverters;
 
 /// <summary>
 ///     Value converter for strongly-typed identifiers to and from their primitive representation.

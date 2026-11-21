@@ -1,4 +1,4 @@
-namespace Acme.Center.Platform.Resources.Errors;
+namespace Event.Registration.Resources.Errors;
 
 public class ErrorMessages
 {

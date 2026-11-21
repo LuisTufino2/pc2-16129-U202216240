@@ -1,10 +1,10 @@
-using Acme.Center.Platform.Resources.Errors;
-using Acme.Center.Platform.Resources.Shared;
+using Event.Registration.Resources.Errors;
+using Event.Registration.Resources.Shared;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Pipeline.Middleware.Components;
+namespace Event.Registration.Shared.Infrastructure.Pipeline.Middleware.Components;
 
 /// <summary>
 ///     Global exception handler implementing ASP.NET Core <see cref="IExceptionHandler" />.

@@ -1,8 +1,8 @@
-using Acme.Center.Platform.Shared.Domain.Repositories;
-using Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
+using Event.Registration.Shared.Domain.Repositories;
+using Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Repositories;
+namespace Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Repositories;
 
 /// <summary>
 ///     Base repository for all repositories

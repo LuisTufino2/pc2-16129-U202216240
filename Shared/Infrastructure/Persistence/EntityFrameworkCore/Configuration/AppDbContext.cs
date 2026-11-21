@@ -1,11 +1,11 @@
-using Acme.Center.Platform.Iam.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
-using Acme.Center.Platform.Profiles.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
-using Acme.Center.Platform.Publishing.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
-using Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
-using Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
+using Event.Registration.Iam.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+using Event.Registration.Profiles.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+using Event.Registration.Publishing.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+using Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+using Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
 using Microsoft.EntityFrameworkCore;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
+namespace Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 
 /// <summary>
 ///     Application database context for the Learning Center Platform

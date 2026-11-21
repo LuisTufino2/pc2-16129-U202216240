@@ -1,4 +1,4 @@
-namespace Acme.Center.Platform.Shared.Domain.Repositories;
+namespace Event.Registration.Shared.Domain.Repositories;
 
 /// <summary>
 ///     Base repository interface for all repositories

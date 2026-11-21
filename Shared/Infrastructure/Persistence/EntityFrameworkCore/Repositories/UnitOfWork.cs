@@ -1,7 +1,7 @@
-using Acme.Center.Platform.Shared.Domain.Repositories;
-using Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
+using Event.Registration.Shared.Domain.Repositories;
+using Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Repositories;
+namespace Event.Registration.Shared.Infrastructure.Persistence.EntityFrameworkCore.Repositories;
 
 /// <summary>
 ///     Unit of work for the application.

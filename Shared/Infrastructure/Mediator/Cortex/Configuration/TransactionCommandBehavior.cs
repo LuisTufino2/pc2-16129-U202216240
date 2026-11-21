@@ -1,8 +1,8 @@
-using Acme.Center.Platform.Shared.Domain.Repositories;
+using Event.Registration.Shared.Domain.Repositories;
 using Cortex.Mediator.Commands;
 using Microsoft.Extensions.Logging;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Mediator.Cortex.Configuration;
+namespace Event.Registration.Shared.Infrastructure.Mediator.Cortex.Configuration;
 
 /// <summary>
 ///     Pipeline behavior that automatically commits the unit of work after a command executes successfully.

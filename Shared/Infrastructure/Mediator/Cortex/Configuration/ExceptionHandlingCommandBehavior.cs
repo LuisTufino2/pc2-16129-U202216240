@@ -2,7 +2,7 @@ using Cortex.Mediator.Commands;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Mediator.Cortex.Configuration;
+namespace Event.Registration.Shared.Infrastructure.Mediator.Cortex.Configuration;
 
 /// <summary>
 ///     Pipeline behavior that logs command execution exceptions and handles standard failure paths.

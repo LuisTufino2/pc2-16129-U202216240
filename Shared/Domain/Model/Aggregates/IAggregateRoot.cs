@@ -1,6 +1,6 @@
-using Acme.Center.Platform.Shared.Domain.Model.Events;
+using Event.Registration.Shared.Domain.Model.Events;
 
-namespace Acme.Center.Platform.Shared.Domain.Model.Aggregates;
+namespace Event.Registration.Shared.Domain.Model.Aggregates;
 
 /// <summary>
 ///     Defines the contract for an aggregate root capable of raising domain events.

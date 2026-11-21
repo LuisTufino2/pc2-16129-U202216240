@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.OpenApi;
 using Microsoft.OpenApi;
 
-namespace Acme.Center.Platform.Shared.Infrastructure.Interfaces.AspNetCore.OpenApi;
+namespace Event.Registration.Shared.Infrastructure.Interfaces.AspNetCore.OpenApi;
 
 /// <summary>
 ///     OpenAPI document transformer to add JWT Bearer security scheme definition and requirements.
